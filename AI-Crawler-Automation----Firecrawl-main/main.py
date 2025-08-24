@@ -8,7 +8,7 @@ from firecrawl import FirecrawlApp
 INPUT_EXCEL_PATH = "Dataset firecrawl.xlsx"
 SAVE_DIR = "Web_Scraped_Data"
 OUTPUT_SUMMARY_PATH = "scraping_output_status.xlsx"
-FIRE_CRAWL_API_KEY = "fc-9f793349b3ba4623b1ca112a40997e15"  # Replace with your key
+FIRE_CRAWL_API_KEY = ""  # Replace with your key
 
 # Initialize Firecrawl
 app = FirecrawlApp(api_key=FIRE_CRAWL_API_KEY)
